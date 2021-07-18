@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 24px;
+}
+
+h1 {
+    margin: 3rem 0;
+    text-align: center;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+.container {
+    margin: 0 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 5rem;
+}
+
+.computer {
+    padding: 1rem 0;
+    display: none;
+}
+
+.scoreboard {
+    padding: 1rem 0 3rem;
+}
+
+.option {
+    flex: 1;
+}
+
+.option img {
+    width: 100%;
+}
